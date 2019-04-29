@@ -29,7 +29,7 @@ void draw() {
 
   if (!inGame) {
     background(#95C2FF);
-    scene.show_move();
+    //scene.show_move();
     showScore(scores);
     if (exit.show_run_isclick()) {
       exit();
@@ -39,7 +39,7 @@ void draw() {
   } else {
     /*********************** In Game ************************************************************/
     background(#95C2FF);
-    scene.show_move();
+    //scene.show_move();
     b.draw();
     b.run();
     pipes.display();
